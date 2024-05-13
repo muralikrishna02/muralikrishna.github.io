@@ -4,45 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Projects</title>
-    <!-- Add any additional meta tags, stylesheets, or scripts here -->
-    <link rel="stylesheet" href="styles.css"> <!-- Assuming you have a separate CSS file -->
+    <!-- Add Material Design CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Add Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Add custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My GitHub Projects</h1>
-        <!-- Add any additional header content here -->
+    <header class="blue lighten-1">
         <nav>
-            <ul>
-                <li><a href="#project1">Project 1</a></li>
-                <li><a href="#project2">Project 2</a></li>
-                <!-- Add more navigation links for additional projects -->
-            </ul>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">My GitHub Projects</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#project1">Project 1</a></li>
+                    <li><a href="#project2">Project 2</a></li>
+                    <!-- Add more navigation links for additional projects -->
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
-        <!-- Add your project showcase content here -->
-        <section id="project1">
-            <h2>Project 1</h2>
-            <p>Description of Project 1...</p>
-            <a href="link_to_project1_repo_or_demo">Link to Project 1</a>
-            <img src="project1_screenshot.jpg" alt="Project 1 Screenshot">
+        <section id="project1" class="section">
+            <div class="container">
+                <h2 class="blue-text text-darken-2">Project 1</h2>
+                <p>Description of Project 1...</p>
+                <a href="link_to_project1_repo_or_demo" class="waves-effect waves-light btn">Link to Project 1</a>
+                <img src="project1_screenshot.jpg" alt="Project 1 Screenshot" class="responsive-img">
+            </div>
         </section>
 
-        <section id="project2">
-            <h2>Project 2</h2>
-            <p>Description of Project 2...</p>
-            <a href="link_to_project2_repo_or_demo">Link to Project 2</a>
-            <img src="project2_screenshot.jpg" alt="Project 2 Screenshot">
+        <section id="project2" class="section">
+            <div class="container">
+                <h2 class="blue-text text-darken-2">Project 2</h2>
+                <p>Description of Project 2...</p>
+                <a href="link_to_project2_repo_or_demo" class="waves-effect waves-light btn">Link to Project 2</a>
+                <img src="project2_screenshot.jpg" alt="Project 2 Screenshot" class="responsive-img">
+            </div>
         </section>
-
         <!-- Add more sections for additional projects as needed -->
     </main>
 
-    <footer>
-        <!-- Add footer content, such as contact information or copyright notice -->
-        <p>Contact me at: email@example.com</p>
-        <p>&copy; 2024 My Portfolio</p>
+    <footer class="page-footer blue darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <p class="grey-text text-lighten-4">Contact me at: email@example.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <p class="grey-text text-lighten-4">&copy; 2024 My Portfolio</p>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <!-- Add Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
