@@ -18,53 +18,37 @@
 
     <main>
         <div class="container py-5">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                <!-- Project 1: Analysis of Flight Delays and Public Opinion at EWR Airport -->
+            <!-- Your project cards here -->
+        </div>
+        
+        <div class="container py-5">
+            <div class="row">
                 <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Analysis of Flight Delays and Public Opinion at EWR Airport</h5>
-                            <p class="card-text">Twitter Data, Python, Sentiment Analysis</p>
-                            <p class="card-text">Analyzed tweets to assess public sentiment on flight delays. Identified main causes of delays as traffic management issues and gate delays. Proposed solutions include infrastructure upgrades, increased staffing.</p>
-                            <a href="link_to_project1_github" class="btn btn-primary">GitHub Repository</a>
-                        </div>
-                    </div>
+                    <h2>About Me</h2>
+                    <p>Add some information about yourself here.</p>
                 </div>
+            </div>
+        </div>
 
-                <!-- Project 2: User Behavior Profiling with NLP and LLM -->
+        <div class="container py-5">
+            <div class="row">
                 <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">User Behavior Profiling with NLP and LLM</h5>
-                            <p class="card-text">Python, NLP, LangChain, OpenAI</p>
-                            <p class="card-text">Leveraged pre-trained models from Hugging Face for sentiment plots and word clouds. Identified active users and extracted keywords and entities using LangChain and OpenAI, enhancing targeted marketing strategies.</p>
-                            <a href="link_to_project2_github" class="btn btn-primary">GitHub Repository</a>
+                    <h2>Contact Me</h2>
+                    <form action="contact.php" method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Project 3: Bird Image Classification using CNN and MongoDB -->
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Bird Image Classification using CNN and MongoDB</h5>
-                            <p class="card-text">Python, TensorFlow, OpenCV, VGG16, MongoDB</p>
-                            <p class="card-text">Developed a bird species classifier using VGG16 CNNs trained on 10 species. Improved model performance with data augmentation and transfer learning. Managed data with MongoDB for optimized storage and retrieval.</p>
-                            <a href="link_to_project3_github" class="btn btn-primary">GitHub Repository</a>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Project 4: NYC Airbnb Market Analysis -->
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">NYC Airbnb Market Analysis</h5>
-                            <p class="card-text">Tableau, Python, Data Analysis</p>
-                            <p class="card-text">Analyzed Airbnb data in NYC using Tableau, focusing on bookings, prices, reviews, and host performance. Created interactive visualizations and an interactive dashboard.</p>
-                            <a href="link_to_project4_github" class="btn btn-primary">GitHub Repository</a>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                         </div>
-                    </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
