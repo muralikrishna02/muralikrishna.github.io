@@ -35,6 +35,43 @@
             color: #555;
         }
     </style>
+    /* Custom Styles for Projects Section */
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    overflow: hidden; /* Ensure images are not distorted */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.project-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px; /* Set a fixed height for all project images */
+    object-fit: cover; /* Ensure images cover the entire container */
+}
+
+.section-title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -96,8 +133,8 @@
                     <img src="images/airplane.jpeg" class="card-img-top project-img" alt="Project 1 Image">
                     <div class="card-body">
                         <h5 class="card-title project-title">Analysis of Flight Delays and Public Opinion at EWR Airport</h5>
-                        <p class="card-text">Twitter Data, Python, Sentiment Analysis</p>
-                        <p class="card-text">Analyzed tweets to assess public sentiment on flight delays. Identified main causes of delays as traffic management issues and gate delays. Proposed solutions include infrastructure upgrades, increased staffing.</p>
+                        <p class="card-text project-text">Twitter Data, Python, Sentiment Analysis</p>
+                        <p class="card-text project-text">Analyzed tweets to assess public sentiment on flight delays. Identified main causes of delays as traffic management issues and gate delays. Proposed solutions include infrastructure upgrades, increased staffing.</p>
                         <a href="https://github.com/muralikrishna02/EWR-Flight-Delays-Public-Opinion-Analysis" class="btn btn-primary">GitHub Repository</a>
                     </div>
                 </div>
@@ -108,8 +145,8 @@
                     <img src="images/LLm.jpeg" class="card-img-top project-img" alt="Project 2 Image">
                     <div class="card-body">
                         <h5 class="card-title project-title">User Behavior Profiling with NLP and LLM</h5>
-                        <p class="card-text">Python, NLP, LangChain, OpenAI</p>
-                        <p class="card-text">Leveraged pre-trained models from Hugging Face for sentiment plots and word clouds. Identified active users and extracted keywords and entities using LangChain and OpenAI, enhancing targeted marketing strategies.</p>
+                        <p class="card-text project-text">Python, NLP, LangChain, OpenAI</p>
+                        <p class="card-text project-text">Leveraged pre-trained models from Hugging Face for sentiment plots and word clouds. Identified active users and extracted keywords and entities using LangChain and OpenAI, enhancing targeted marketing strategies.</p>
                         <a href="https://github.com/muralikrishna02/User_Behavior_Profiling_with_Advanced_NLP" class="btn btn-primary">GitHub Repository</a>
                     </div>
                 </div>
@@ -120,8 +157,8 @@
                     <img src="images/birds.webp" class="card-img-top project-img" alt="Project 3 Image">
                     <div class="card-body">
                         <h5 class="card-title project-title">Bird Image Classification using CNN and MongoDB</h5>
-                        <p class="card-text">Python, TensorFlow, OpenCV, VGG16, MongoDB</p>
-                        <p class="card-text">Developed a bird species classifier using VGG16 CNNs trained on 10 species. Improved model performance with data augmentation and transfer learning. Managed data with MongoDB for optimized storage and retrieval.</p>
+                        <p class="card-text project-text">Python, TensorFlow, OpenCV, VGG16, MongoDB</p>
+                        <p class="card-text project-text">Developed a bird species classifier using VGG16 CNNs trained on 10 species. Improved model performance with data augmentation and transfer learning. Managed data with MongoDB for optimized storage and retrieval.</p>
                         <a href="https://github.com/muralikrishna02/Bird_Species_Classification_using_MongoDB_and_CNNs" class="btn btn-primary">GitHub Repository</a>
                     </div>
                 </div>
@@ -130,7 +167,6 @@
         </div>
     </div>
 </section>
-
 
     <!-- Contact Section -->
     <section id="contact" class="section">
