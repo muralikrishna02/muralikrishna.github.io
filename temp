@@ -1,1 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Murali Krishna </title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .project-img {
+            height: 200px; /* Set the desired height for all project images */
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <h1 class="text-light mb-0">Murali Krishna </h1>
+        <a href="https://www.linkedin.com/in/murali-krishna-avula" target="_blank">
+            <img src="images/linkedin-icon.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+        </a>
+    </div>
+</header>
 
+    <main>
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Project 1: Analysis of Flight Delays and Public Opinion at EWR Airport -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/airplane.jpeg" class="card-img-top project-img" alt="Project 1 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Analysis of Flight Delays and Public Opinion at EWR Airport</h5>
+                            <p class="card-text">Twitter Data, Python, Sentiment Analysis</p>
+                            <p class="card-text">Analyzed tweets to assess public sentiment on flight delays. Identified main causes of delays as traffic management issues and gate delays. Proposed solutions include infrastructure upgrades, increased staffing.</p>
+                            <a href="https://github.com/muralikrishna02/EWR-Flight-Delays-Public-Opinion-Analysis" class="btn btn-primary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: User Behavior Profiling with NLP and LLM -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/LLm.jpeg" class="card-img-top project-img" alt="Project 2 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">User Behavior Profiling with NLP and LLM</h5>
+                            <p class="card-text">Python, NLP, LangChain, OpenAI</p>
+                            <p class="card-text">Leveraged pre-trained models from Hugging Face for sentiment plots and word clouds. Identified active users and extracted keywords and entities using LangChain and OpenAI, enhancing targeted marketing strategies.</p>
+                            <a href="https://github.com/muralikrishna02/User_Behavior_Profiling_with_Advanced_NLP" class="btn btn-primary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Bird Image Classification using CNN and MongoDB -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/birds.webp" class="card-img-top project-img" alt="Project 3 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Bird Image Classification using CNN and MongoDB</h5>
+                            <p class="card-text">Python, TensorFlow, OpenCV, VGG16, MongoDB</p>
+                            <p class="card-text">Developed a bird species classifier using VGG16 CNNs trained on 10 species. Improved model performance with data augmentation and transfer learning. Managed data with MongoDB for optimized storage and retrieval.</p>
+                            <a href="https://github.com/muralikrishna02/Bird_Species_Classification_using_MongoDB_and_CNNs" class="btn btn-primary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: NYC Airbnb Market Analysis -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Airbnb-Logo.jpeg" class="card-img-top project-img" alt="Project 4 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">NYC Airbnb Market Analysis</h5>
+                            <p class="card-text">Tableau, Python, Data Analysis</p>
+                            <p class="card-text">Analyzed Airbnb data in NYC using Tableau, focusing on bookings, prices, reviews, and host performance. Created interactive visualizations and an interactive dashboard.</p>
+                            <a href="https://github.com/muralikrishna02/nyc-airbnb-market-analysis" class="btn btn-primary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Movie Recommendation System -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Movie-Recommendation.jpeg" class="card-img-top project-img" alt="Movie Recommendation System Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Movie Recommendation System</h5>
+                            <p class="card-text">Python, Streamlit, Machine Learning</p>
+                            <p class="card-text">Developed a movie recommendation system using Streamlit, leveraging Python libraries like pandas, scikit-learn, and IMDbPY. Integrated IMDb API for movie data and poster retrieval, enabling users to explore personalized recommendations interactively. Demonstrates proficiency in Python, machine learning, web development, and API integration for enhancing movie discovery.</p>
+                            <a href="https://github.com/muralikrishna02/Movie_Recommendation_system" class="btn btn-primary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Twitch Channel Data Analysis -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Twitch-Analysis.webp" class="card-img-top project-img" alt="Twitch Channel Data Analysis Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Twitch Channel Data Analysis</h5>
+                            <p class="card-text">Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook</p>
+                            <p class="card-text">This project focuses on analyzing data from Twitch channels, examining metrics such as watch time, peak viewers, average viewers, and followers. Conducted exploratory data analysis, revealing insights such as the dominance of English channels and correlations between watch time and followers. Utilized Python libraries including Pandas, Matplotlib, and Seaborn for data analysis and visualization.</p>
+                            <a href="https://github.com/muralikrishna02/Twitch-Channel-Data-Analysis" class="btn btn-primary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: GDP Insights: Unemployment and Economic Trends -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/GDP-Unemployment.jpeg" class="card-img-top project-img" alt="GDP and Unemployment Trends Image">
+                        <div class="card-body">
+                            <h5 class="card-title">GDP Insights: Unemployment and Economic Trends</h5>
+                            <p class="card-text">Python, Pandas, Numpy, Matplotlib, Seaborn, Plotly, Scipy</p>
+                            <p class="card-text">Analyzed unemployment rates and GDP data for various countries to explore the relationship between economic performance and unemployment. Merged datasets, cleaned data, and visualized insights using line graphs, bar plots, and choropleth maps. Findings include top countries with high unemployment rates, correlation analysis between GDP and unemployment, and hypothesis testing results.</p>
+                            <a href="https://github.com/muralikrishna02/GDP_Insights-Unemployment_and_Economic_Trends" class="btn btn-primary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Me section -->
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-6">
+         
+        </div>
+        <div class="col-md-6">
+            <h2>About Me</h2>
+            <p id="brief-summary">Hello! I'm Murali krishna, a passionate software engineer and developer with a keen interest in leveraging technology to solve real-world problems. I hold a Bachelor's degree in Computer Science and a Master's degree in Data Science. With a strong background in data science, I have honed my skills in Python programming, machine learning, and data analysis.</p>
+            <p id="detailed-info" style="display: none;">
+                Throughout my journey, I've worked on diverse projects that span from analyzing public sentiment on flight delays to developing advanced recommendation systems. My experience includes harnessing the power of natural language processing (NLP) and deep learning techniques to understand user behavior, as well as employing computer vision algorithms for image classification tasks. One of my notable projects involved building a movie recommendation system that not only showcased my proficiency in machine learning but also highlighted my ability to integrate different technologies seamlessly. Additionally, I've explored data analytics with platforms like Tableau, enabling insights into complex datasets such as Airbnb market trends in New York City.
+                <br><br>
+                Apart from technical expertise, I'm deeply committed to continuous learning and growth. I'm enthusiastic about collaborating on innovative projects that push the boundaries of what's possible in the fields of data science and artificial intelligence. In my free time, I enjoy contributing to open-source projects, sharing knowledge through writing and speaking engagements, and mentoring aspiring data scientists and developers.
+                <br><br>
+                Feel free to reach out to me at muralikrishna2202@gmail.com to discuss potential collaborations or simply to connect!
+            </p>
+            <button id="read-more-btn" class="btn btn-primary">Read More</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("read-more-btn").addEventListener("click", function() {
+        var briefSummary = document.getElementById("brief-summary");
+        var detailedInfo = document.getElementById("detailed-info");
+        var readMoreBtn = document.getElementById("read-more-btn");
+
+        if (detailedInfo.style.display === "none") {
+            briefSummary.style.display = "none";
+            detailedInfo.style.display = "block";
+            readMoreBtn.textContent = "Read Less";
+        } else {
+            briefSummary.style.display = "block";
+            detailedInfo.style.display = "none";
+            readMoreBtn.textContent = "Read More";
+        }
+    });
+</script>
+
+    </main>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p>Contact me at: muralikrishna2202@gmail.com</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center mt-2">
+            <p class="mb-0 me-2">&copy; 2024 muralikrishna Portfolio</p>
+            <a href="https://www.linkedin.com/in/murali-krishna-avula" target="_blank">
+                <img src="images/linkedin-icon.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+            </a>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
