@@ -79,18 +79,19 @@
 .contact-list li {
     margin-bottom: 10px; /* Add spacing between list items */
 }
-        .image-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.image-container {
+    flex: 1; /* Ensures the image container takes up available space */
+    display: flex; /* Allows flex properties to control alignment */
+    justify-content: flex-end; /* Aligns content (image) to the right */
+    padding: 20px; /* Adds padding around the image */
 }
 
 .image-container img {
-    max-width: 50%; /* Restricts the image width */
-    height: auto;
-    border-radius: 10px;
+    max-width: 50%; /* Sets maximum width of the image */
+    height: auto; /* Allows the image height to adjust proportionally */
+    border-radius: 10px; /* Adds rounded corners to the image */
 }
+
 
         <style>
     /* Custom Navigation Bar Styles */
