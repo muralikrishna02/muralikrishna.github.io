@@ -105,6 +105,11 @@
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Add rounded corners to the image */
 }
+        .content-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
 
         <style>
@@ -169,21 +174,22 @@
         </div>
     </nav>
 
-    <!-- Home Section -->
-     <section id="home" class="section">
-        <div class="container">
+    <section id="home" class="section">
+    <div class="container">
+        <div class="content-wrapper">
             <div class="home-content">
                 <h2 class="section-title">Home</h2>
                 <p class="home-description">Hello! I'm ABCD.</p>
-                <p class="about-description">Hello! I'm Murali krishna,a passionate software engineer and developer with a keen interest in leveraging technology to solve real-world problems. I hold a Bachelor's degree in Computer Science and a Master's degree in Data Science. With a strong background in data science, I have honed my skills in Python programming, machine learning, and data analysis.</p>
-
+                <p class="about-description">Hello! I'm Murali krishna, a passionate software engineer and developer with a keen interest in leveraging technology to solve real-world problems. I hold a Bachelor's degree in Computer Science and a Master's degree in Data Science. With a strong background in data science, I have honed my skills in Python programming, machine learning, and data analysis.</p>
                 <!-- Add any additional content here -->
             </div>
             <div class="image-container">
                 <img src="images/home.png" alt="Home Image">
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
 <!-- About Me Section -->
     <section id="about" class="section">
