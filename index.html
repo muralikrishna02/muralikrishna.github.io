@@ -97,6 +97,60 @@
     </style>
 <!-------  home page------>
 
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 56px); /* Full viewport height minus navbar height */
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-description {
+    font-size: 48px; /* Bigger font size for the text */
+    font-weight: bold;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 80%; /* Restricts the image width */
+    height: auto;
+    border-radius: 10px;
+}
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Section</title>
