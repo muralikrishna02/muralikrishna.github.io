@@ -79,26 +79,26 @@
 .contact-list li {
     margin-bottom: 10px; /* Add spacing between list items */
 }
-.image-container {
-    flex: 1; /* Ensures the image container takes up available space */
-    display: flex; /* Allows flex properties to control alignment */
-    justify-content: flex-end; /* Aligns content (image) to the right */
-    padding: 20px; /* Adds padding around the image */
-}
-
-.image-container img {
-    max-width: 20%; /* Sets maximum width of the image */
-    height: auto; /* Allows the image height to adjust proportionally */
-    border-radius: 10px; /* Adds rounded corners to the image */
-}
 .home-content {
     flex: 1; /* Take up remaining space */
-    text-align: center; /* Center-align text */
 }
 
 .home-description {
     font-size: 48px; /* Large font size */
     font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align text */
+}
+
+.image-container {
+    flex-shrink: 0; /* Prevent image container from shrinking */
+    text-align: right; /* Align image to the right */
+    margin-left: 20px; /* Optional: Add spacing between text and image */
+}
+
+.image-container img {
+    max-width: 20%; /* Ensure image stays within its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
 }
 
 
