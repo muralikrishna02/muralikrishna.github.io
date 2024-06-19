@@ -95,16 +95,15 @@
 }
 
 .image-container {
-    flex-shrink: 0; /* Prevent image container from shrinking */
-    text-align: right; /* Align image to the right */
-    margin-left: 20px; /* Optional: Add spacing between text and image */
-}
+        flex: 0 0 calc(50% - 10px); /* Adjust width for two columns with spacing */
+        max-width: calc(50% - 10px); /* Adjust max width for responsive design */
+    }
 
-.image-container img {
-    max-width: 20%; /* Ensure image stays within its container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Add rounded corners to the image */
-}
+    .image-container img {
+        max-width: 100%; /* Ensure image stays within its container */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 10px; /* Optional: Add rounded corners to the image */
+    }
         .content-wrapper {
         display: flex;
         flex-wrap: wrap;
